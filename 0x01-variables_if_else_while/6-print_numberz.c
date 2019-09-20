@@ -8,8 +8,8 @@
 
 int main(void)
 {
-int x = 0;
-while (x <= 9)
+int x = 48;
+while (x <= 57)
 {
 putchar(x);
 x++;
