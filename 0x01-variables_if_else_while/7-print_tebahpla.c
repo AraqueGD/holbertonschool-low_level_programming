@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Pritn alphabet reverse
- *
+ * Print alphabet reverse
+ * with putchar
  * Return: Always 0 (Success)
  */
 
