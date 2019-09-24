@@ -1,17 +1,15 @@
 #include "holberton.h"
 
 /**
- * _islower - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _islower - the character functions for lowcase.
+ * @c: Checkout input yo caracter
+ * Return: int.
  */
 
 int _islower(int c)
 {
-
-	if (c >= 'a' && c <= 'z')
-		return (1);
-
-	else
-		return (0);
+if (c >= 'a' && c <= 'z')
+return (1);
+else
+return (0);
 }
