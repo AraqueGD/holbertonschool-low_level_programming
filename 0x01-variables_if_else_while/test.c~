@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main (void)
+{
+int x = 'z';
+while (x >= 'a')
+{
+x++;
+putchar(x);
+}
+putchar('\n');
+return (0);
+}

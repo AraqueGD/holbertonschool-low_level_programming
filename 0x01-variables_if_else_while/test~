@@ -1,0 +1,12 @@
+#include (stdio.h)
+int main (void)
+{
+int x = 122
+while (x > 97)
+{
+x++;
+putchar(x);
+}
+putchar(\n);
+return (0);
+}
