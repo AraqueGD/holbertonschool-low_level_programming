@@ -1,5 +1,10 @@
 #include "holberton.h"
 
+/**
+ * First part
+ * Print Holberton
+ **/
+
 int main(void)
 {
 	int n = 0;
