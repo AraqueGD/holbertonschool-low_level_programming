@@ -2,13 +2,15 @@
 
 /**
  * add - check the code for Holberton School students.
- * @x: @y: 98
+ * @x: 89
+ * @y: 9
  * Return: rta.
  */
 
 int add(int x, int y)
 {
 	int rta = 0;
+
 	rta = x + y;
 	return (rta);
 }
