@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * print_to_98 - check the code for Holberton School students.
+ * @n: Integer the 0 to 98
  * Return: Always 0.
  */
 
