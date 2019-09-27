@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * print_square - check the code for Holberton School students.
+ * @size: Parameter
  * Return: Always 0.
  */
 
