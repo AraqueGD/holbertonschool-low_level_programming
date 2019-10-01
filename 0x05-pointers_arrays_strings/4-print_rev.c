@@ -2,6 +2,7 @@
 
 /**
  * print_rev - check the code for Holberton School students.
+ *
  * @s: Parameter
  * Return: Nothing.
  */
@@ -12,11 +13,11 @@ void print_rev(char *s)
 
 	while (*(s + n) != '\0')
 		n++;
-	n++;
+	n--;
 	while (n >= 0)
 	{
 		_putchar(*(s + n));
 		n--;
-	}
-	_putchar('\n');
+}
+_putchar('\n');
 }
