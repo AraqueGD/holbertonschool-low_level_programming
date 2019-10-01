@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * reset_to_98 - check the code for Holberton School students.
+ * @n: Parameter
  * Return: Always 0.
  */
 
