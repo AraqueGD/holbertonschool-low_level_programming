@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strcpy - check the code for Holberton School students.
+ * *_strcpy - check the code for Holberton School students.
  * @dest: First Parameter.
  * @src: Second Parameter.
  * Return: Always 0.
