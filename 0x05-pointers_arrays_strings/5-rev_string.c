@@ -13,8 +13,9 @@ void rev_string(char *s)
 	char *p1, *p2;
 
 	p1 = s;
-	p2 = s+=8;
-	while (p1 != p2){
+	p2 = s += 8;
+	while (p1 != p2)
+	{
 		c1 = *p1;
 		c2 = *p2;
 		s =  p1;
