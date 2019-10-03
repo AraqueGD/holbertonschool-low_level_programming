@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * _strcat - check the code for Holberton School students.
- * @dest: First Parameter
- * @src: Second Parameter
+ * _strncat - check the code for Holberton School students.
+ * @dest: First Parameter.
+ * @src: Second Parameter.
+ * @n: Third Parameter.
  * Return: Always 0.
  */
 
