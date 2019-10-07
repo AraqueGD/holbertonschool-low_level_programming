@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _memset - check the code for Holberton School students.
+ * *_memset - check the code for Holberton School students.
  * @s: Starting address of memory to be filled.
  * @b: Value to be filled.
  * @n: Number of bytes to be filled starting from ptr to be filled.
