@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * _strchr - check the code for Holberton School students.
@@ -10,14 +9,13 @@
 
 char *_strchr(char *s, char c)
 {
+	int idx;
 
-	while (*s != '\0')
+	for (idx = 0; s[idx] != '\0'; idx++)
 	{
-		if (*s == c)
-		{
-			return (s);
-		}
-		s++;
+		if (s[idx] == c)
+			return (s + idx);
 	}
-	return (NULL);
+
+	return ('\0');
 }
