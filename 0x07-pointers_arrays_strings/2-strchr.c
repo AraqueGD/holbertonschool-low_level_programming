@@ -13,14 +13,16 @@ char *_strchr(char *s, char c)
 	int flag = 0;
 	char *ptrS = s;
 	int idx;
+	char *ptrAux = s;
 
-	for (idx = 0; *(ptrS + idx) != '\0'; idx++)
+	for (idx = 0; ptrS[idx] != '\0'; idx++)
 	{
-		if (*(ptrS + idx) == c)
+		if (ptrS[idx] == c)
 		{
 			flag = 1;
 			break;
 		}
+		ptrAux++;
 	}
 	if (flag == 0)
 	{
@@ -28,6 +30,6 @@ char *_strchr(char *s, char c)
 	}
 	else
 	{
-		return (ptrS + idx);
+		return (ptrAux);
 	}
 }
