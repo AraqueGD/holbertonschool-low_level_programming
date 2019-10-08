@@ -29,5 +29,4 @@ char *_strchr(char *s, char c)
 	{
 		return (ptrS + idx);
 	}
-	return (ptrS);
 }
