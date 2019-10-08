@@ -10,10 +10,12 @@
 char *_strchr(char *s, char c)
 {
 	int flag = 0;
+	char *ptrS = s;
+	int idx = 0;
 
-	for (; s[0] != '\0'; s++)
+	for (; *(ptrS + idx) != '\0'; idx++)
 	{
-		if (s[0] == c)
+		if (*(ptrS + idx) == c)
 		{
 			flag = 1;
 			break;
@@ -21,7 +23,11 @@ char *_strchr(char *s, char c)
 	}
 	if (flag == 0)
 	{
-		s = '\0';
+		return ('\0');
 	}
-	return (s);
+	else
+	{
+		return (ptrS + idx);
+	}
+	return (ptrS);
 }
