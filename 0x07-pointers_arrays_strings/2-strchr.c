@@ -19,6 +19,9 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
-	if (flag == 0) s = '\0';
+	if (flag == 0)
+	{
+		s = '\0';
+	}
 	return (s);
 }
