@@ -25,10 +25,11 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (i <= len + 1)
+	while (str[i] != '\0')
 	{
 		ptr[i] = str[i];
 		i++;
 	}
+	ptr[i + 1] = '\0';
 	return (ptr);
 }
