@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * *_strdup - check the code for Holberton School students.
@@ -10,14 +9,18 @@
 char *_strdup(char *str)
 {
 	char *ptr;
-	unsigned int i = 0;
-	unsigned int len = strlen(str);
+	int i = 0;
+	int len;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	ptr = malloc(sizeof(char) * len);
+	for (len = 0; str[len]; len++)
+	{
+		len++;
+	}
+	ptr = malloc(sizeof(char) * (len + 1));
 	if (ptr == NULL)
 	{
 		return (NULL);
