@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
+ * *create_array - prints buffer in hexa
  * @c: String.
  * @size: the size of the memory to print.
  * Return: Nothing.
@@ -19,11 +19,11 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	ptr = malloc(sizeof(*ptr) * size);
-	if(ptr == NULL)
+	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-	while(i <= size - 1)
+	while (i <= size - 1)
 	{
 		ptr[i] = c;
 		i++;
