@@ -10,7 +10,7 @@ char *_strdup(char *str)
 {
 	char *ptr;
 	int i = 0;
-	int len;
+	int len = 0;
 
 	if (str == NULL)
 	{
@@ -31,6 +31,6 @@ char *_strdup(char *str)
 		ptr[i] = str[i];
 		i++;
 	}
-	ptr[i + 1] = '\0';
+	ptr[len] = '\0';
 	return (ptr);
 }
