@@ -23,11 +23,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	for (idx = 0; s1[idx]; idx++)
-	{
-		len++;
-	}
-	for (idx = 0; s2[idx]; idx++)
+	for (idx = 0; s1[idx] || s2[idx]; idx++)
 	{
 		len++;
 	}
