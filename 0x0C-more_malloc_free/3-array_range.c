@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * array_range - prints buffer in hexa
+ * @min: the address of memory to print
+ * @max: the size of the memory to print
  * Return: Nothing.
  */
 
@@ -23,7 +23,7 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 	i = min;
-	for(i = 0; min <= max; i++, min++)
+	for (i = 0; min <= max; i++, min++)
 	{
 		ptr[i] = min;
 	}
