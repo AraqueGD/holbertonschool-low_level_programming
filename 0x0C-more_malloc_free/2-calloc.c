@@ -10,8 +10,7 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *ptr;
-	unsigned int i;
+	void *ptr;
 
 	if (size == 0 || nmemb == 0)
 	{
@@ -22,12 +21,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	while (i <= size - 1)
-	{
-		ptr[i] = nmemb;
-		i++;
-	}
-	ptr[i] = '\0';
+	if (ptr == NULL)
+		return (NULL);
+	_memset(ptr, 0, nmemb * size);
 	return (ptr);
 }
 #include "holberton.h"
