@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
+ * _calloc - prints buffer in hexa
  * @nmemb: the address of memory to print
  * @size: the size of the memory to print
  * Return: Nothing.
