@@ -12,8 +12,6 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	if (separator != 0 || n != 0)
-	{
 		va_list arguments;
 		unsigned int i;
 		int aux = 0;
@@ -31,6 +29,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		}
 		printf("\n");
 		va_end(arguments);
-	}
-
 }
