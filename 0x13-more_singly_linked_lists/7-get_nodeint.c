@@ -5,6 +5,7 @@
 /**
  * *get_nodeint_at_index - check the code for Holberton School students.
  * @index: index the node.
+ * @head: Head the list.
  * Return: Always 0.
  */
 
