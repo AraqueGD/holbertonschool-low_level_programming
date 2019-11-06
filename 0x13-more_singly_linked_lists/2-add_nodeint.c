@@ -3,8 +3,9 @@
 #include "lists.h"
 
 /**
- * print_list - check the code for Holberton School students.
- * @h: Parament de List_t.
+ * *add_nodeint - check the code for Holberton School students.
+ * @head: Parament de List_t.
+ * @n: Number the list.
  * Return: Always 0.
  */
 
