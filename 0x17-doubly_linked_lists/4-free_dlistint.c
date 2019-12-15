@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * free_dlistint - check the code for Holberton School students.
+ * @head: Parameter Head the Nodes.
  * Return: Always EXIT_SUCCESS.
  */
 
