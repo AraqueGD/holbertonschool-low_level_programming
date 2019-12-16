@@ -1,14 +1,11 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - Inserts a new node in a dlistint_t
- *                            list at a given position.
- * @h: A pointer to the head of the dlistint_t list.
- * @idx: The position to insert the new node.
- * @n: The integer for the new node to contain.
- *
- * Return: If the function fails - NULL.
- *         Otherwise - the address of the new node.
+ * insert_dnodeint_at_index - check the code for Holberton School students.
+ * @h: The Parameter Head the Nodes.
+ * @idx: The Parameter Number Find node.
+ * @n: Parameter Data Node.
+ * Return: Always EXIT_SUCCESS.
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
