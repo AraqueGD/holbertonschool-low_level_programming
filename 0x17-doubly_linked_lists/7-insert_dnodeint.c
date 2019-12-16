@@ -21,8 +21,10 @@ NewNode = (dlistint_t *)malloc(sizeof(dlistint_t));
 if (NewNode == NULL)
 return (NULL);
 
-while (pTmp->next != NULL && pos < idx)
+while (pos < idx)
 {
+if (pTmp->next == NULL)
+return NULL;
 pTmp = pTmp->next;
 pos++;
 }
