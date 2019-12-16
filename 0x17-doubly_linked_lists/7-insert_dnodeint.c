@@ -17,14 +17,14 @@ unsigned int pos = 0;
 if (idx == 0)
 return (add_dnodeint(h, n));
 
-NewNode = (dlistint_t *)malloc(sizeof(dlistint_t));
+NewNode = malloc(sizeof(dlistint_t));
 if (NewNode == NULL)
 return (NULL);
 
 while (pos < idx)
 {
 if (pTmp->next == NULL)
-return NULL;
+return (NULL);
 pTmp = pTmp->next;
 pos++;
 }
