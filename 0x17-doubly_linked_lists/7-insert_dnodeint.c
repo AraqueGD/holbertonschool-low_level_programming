@@ -29,9 +29,6 @@ pTmp = pTmp->next;
 pos++;
 }
 
-if (pTmp->next == NULL)
-return (add_dnodeint_end(h, n));
-
 NewNode->n = n;
 NewNode->next = NULL;
 NewNode->prev = NULL;
