@@ -23,12 +23,12 @@ void hash_table_print(const hash_table_t *ht)
 			tmp_node = ht->array[idx];
 			while (tmp_node != NULL)
 			{
-				if (flag == 1)
+				if (!(flag == 0))
 				{
 					printf(", ");
 				}
 				printf("'%s': '%s'", tmp_node->key, tmp_node->value);
-				flag = 0;
+				flag = 1;
 				tmp_node = tmp_node->next;
 			}
 		}
