@@ -8,7 +8,7 @@ $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 main.o: main.c m.h
-	$(CC) -c -o main.o main.c
+	$(CC) -c main.c
 
 holberton.o: holberton.c m.h
-	$(CC) -c -o holberton.o holberton.c
+	$(CC) -c holberton.c
