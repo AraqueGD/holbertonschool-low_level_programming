@@ -1,0 +1,6 @@
+# This is Makefile 2
+CC = gcc
+SRC = main.c holberton.c
+all: holberton
+holberton: $(SRC)
+	$(CC) $(SRC) -o holberton
